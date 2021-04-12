@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(110deg, lightblue, lightpink);
+    min-height: 100vh;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.container{
+    margin-top: 50px;
+    /* border: 1px solid #000000; */
+    box-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 0.4);
+    width: 380px;
+    padding: 50px;
+    background-color: aliceblue;
+}
+
+#inputfield{
+    width: 200px;
+    /* height: 46px; */
+    border: none;
+    border-bottom: 2px solid #000000;
+    background: none;
+    font-size: 18px;
+    outline: none;
+}
+
+#addtodo{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.todos{
+    margin-top: 25px;
+}
+
+.paragraph-styling{
+    margin: 0;
+    cursor: pointer;
+    font-size: 20px;
+}

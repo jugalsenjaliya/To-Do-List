@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>To do list</title>
+</head>
+<body>
+    <div class="container">
+        <h1 style="margin-top: 5px;margin-bottom: 40px;">To Do List</h1>
+        <input type="text" id="inputfield" placeholder="Add New Task"><button id="addtodo"><i class="fas fa-plus"></i></button>
+        <div class="todos" id="todocontainer">
+
+        </div>
+        <h3 style="margin-top: 50px;">Completed</h3>
+        <div class="comp">
+            <p id="myList">
+            </p>
+            <button type="button" class="btn btn-success" id="resetbtn" onclick="reset()" style="margin-top: 50px;margin-left: 110px;font-size: 16px;">Reset</button>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
